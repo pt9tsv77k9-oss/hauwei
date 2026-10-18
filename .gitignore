@@ -1,0 +1,20 @@
+# Git 版本管理的忽略清单；忽略不等于删除，也不会禁止程序读取这些文件。
+# 个人密钥配置：不要提交到代码仓库。
+.env
+.env.*
+!.env.example
+.idea/
+.tools/
+# 虚拟环境：可以按 requirements.txt 重新安装，不需要随代码提交。
+.venv/
+# Python 运行时缓存。
+__pycache__/
+# 自动测试缓存。
+.pytest_cache/
+# 运行日志。
+*.log
+# 本地生成内容和接口状态记录，不随代码分享。
+outputs/
+真实验收记录_本轮.md
+logs/
+华为PC营销助手_改进版_无密钥.zip
